@@ -82,7 +82,7 @@ namespace Lesson_2_Geek_Brains
             }
             else
             {
-                Console.WriteLine(  "Не ту такой поры ");
+                Console.WriteLine(  "Нету такой поры ");
             }
 
 
