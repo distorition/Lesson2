@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Lesson_2_Geek_Brains
 {
+    
     public enum Winterrr
     {
-        January = 1,
-        February=2,
-        April=3,
-        March=4,
+        January ,
+        February,
+        April,
+        March,
 
     }
 
@@ -50,6 +51,39 @@ namespace Lesson_2_Geek_Brains
     {
         static void Main(string[] args)
         {
+          
+
+            
+        
+
+
+            Console.WriteLine("ввидите пору года");
+            string a = Console.ReadLine();
+            string a1 = "jenuary";
+            string a2 = "december";
+            string a3 = "febreuary";
+            Console.WriteLine("Ввидите температуру ");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+           
+            
+
+           
+            bool isWinter = a == a3;
+            bool isWinter1 = a == a2;
+            bool isWinter2 = a == a1;
+            bool isWinter3 = isWinter || isWinter1 || isWinter2;
+
+
+
+            if (isWinter3&&b>0)
+            {
+                Console.WriteLine("Дождливая зима Зима");
+            }
+            else
+            {
+                Console.WriteLine(  "ff");
+            }
 
             //Month allSeason =(Month) 0b111111111111;
 
